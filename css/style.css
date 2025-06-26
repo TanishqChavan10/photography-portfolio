@@ -246,6 +246,7 @@ h1, h2, h3{
     height: 400px;
     overflow: hidden;
     transition: var(--transition);
+  
 }
 .insta-grid > div img{
     height: 100%;
@@ -354,6 +355,9 @@ h1, h2, h3{
     }
     .insta-grid{
         grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
     }
 }
 
