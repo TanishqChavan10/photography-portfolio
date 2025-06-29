@@ -124,6 +124,7 @@ h1, h2, h3{
     height: 480px;
     overflow: hidden;
     border-radius: 5px;
+    height: max-content;
 }
 
 
@@ -302,6 +303,9 @@ h1, h2, h3{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3rem;
         row-gap: 0;
+    }
+    .header-content h1{
+        font-size:  4rem;
     }
 }
 @media(min-width: 576px){
